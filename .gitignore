@@ -1,0 +1,22 @@
+# Local configuration and credentials
+config.toml
+.env
+.env.*
+
+# Python environment and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# User Vaults and generated runtime artifacts
+/vault/
+/fulltext/
+/Notes/
+/knowledge/
+/_staging/
+
+# Operating system files
+.DS_Store
+Thumbs.db
